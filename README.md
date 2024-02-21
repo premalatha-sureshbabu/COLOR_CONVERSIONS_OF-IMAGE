@@ -52,6 +52,10 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
+
+
+
+
 ![Screenshot 2024-02-21 185629](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/0ee6cb13-9912-43fb-a330-55ce22f32989)
 
 
@@ -196,6 +200,9 @@ cv2.imshow('Merged RGB image',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
+
+
 
 ![Screenshot 2024-02-21 185858](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/dad1d471-b3b8-452c-bc29-7fb03fcd5fde)
 
