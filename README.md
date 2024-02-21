@@ -51,7 +51,9 @@ cv2.imshow('rose',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
 ![Screenshot 2024-02-21 185629](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/0ee6cb13-9912-43fb-a330-55ce22f32989)
+
 
 ### ii)Write the image
 ```
@@ -59,7 +61,9 @@ import cv2
 image=cv2.imread('tree.png',0)
 cv2.imwrite('test.jpg',image)
 ```
+
 ![Screenshot 2024-02-21 214919](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/9d329b84-a4ad-429a-9e6b-33533b8f80e6)
+
 
 ### iii)Shape of the Image
 ```
@@ -67,7 +71,9 @@ import cv2
 image=cv2.imread('tree.png')
 print(image.shape)
 ```
+
 ![Screenshot 2024-02-21 214927](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/896a2517-2d6f-4f55-90fc-fe0055fd62fd)
+
 
 ### iv)Access rows and columns
 ```
@@ -84,7 +90,9 @@ cv2.imshow('part image',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
 ![Screenshot 2024-02-21 185707](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/37ad4393-326c-413b-a714-c31fe4691ca1)
+
 
 ### v)Cut and paste portion of image
 ```
@@ -97,7 +105,9 @@ cv2.imshow('image1',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
 ![Screenshot 2024-02-21 185725](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/c067c100-35ff-45df-9a2c-47989b6a0548)
+
 
 ### vi) BGR and RGB to HSV and GRAY
 ```
@@ -121,7 +131,9 @@ cv2.imshow('RGB2GRAY',gray2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
 ![Screenshot 2024-02-21 185755](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/672b5c9e-76be-4af9-a45c-ece3ffe2e428)
+
 
 ### vii) HSV to RGB and BGR
 ```
@@ -140,7 +152,9 @@ cv2.imshow('HSV2RGB',BGR)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
 ![Screenshot 2024-02-21 185820](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/ab92f371-f9d9-4d5a-a98b-3a7bde7f14a4)
+
 
 ### viii) RGB and BGR to YCrCb
 ```
@@ -158,6 +172,7 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
 ![Screenshot 2024-02-21 185837](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/946dcf55-3986-4c38-b7b1-7feeccf3342a)
 
 
@@ -181,7 +196,9 @@ cv2.imshow('Merged RGB image',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
 ![Screenshot 2024-02-21 185858](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/dad1d471-b3b8-452c-bc29-7fb03fcd5fde)
+
 
 ### x) Split and merge HSV Image
 ```
@@ -202,6 +219,7 @@ cv2.imshow('Merged',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
 ![Screenshot 2024-02-21 185920](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/56dae9ee-70dc-46fd-ac9f-05aa6d16f635)
 
 
