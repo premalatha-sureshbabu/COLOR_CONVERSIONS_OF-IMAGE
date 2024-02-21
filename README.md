@@ -158,7 +158,8 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-[Screenshot 2024-02-21 185837](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/1e27427d-a4b0-452e-bfca-ed728fbf5740)
+![Screenshot 2024-02-21 185837](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/946dcf55-3986-4c38-b7b1-7feeccf3342a)
+
 
 ### ix) Split and merge RGB Image
 ```
