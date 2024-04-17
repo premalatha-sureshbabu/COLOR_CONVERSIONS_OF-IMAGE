@@ -1,7 +1,9 @@
 # EX NO-1  
+
 <p align="center">
 # COLOR_CONVERSIONS_OF-IMAGE
 </p>
+
 ## AIM
 
 To write a python program using OpenCV to do the following image manipulations.
