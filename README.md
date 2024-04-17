@@ -1,8 +1,7 @@
 # EX NO-1  
 
-<p align="center">
-    *COLOR_CONVERSIONS_OF-IMAGE*
-</p>
+# COLOR_CONVERSIONS_OF-IMAGE
+
 
 ## AIM
 
