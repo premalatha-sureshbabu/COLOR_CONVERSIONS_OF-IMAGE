@@ -1,3 +1,4 @@
+# EX NO-1
 # COLOR_CONVERSIONS_OF-IMAGE
 ## AIM
 To write a python program using OpenCV to do the following image manipulations.
