@@ -50,45 +50,44 @@ Split and merge HSV Image
 ### i) Read and display the image
 ```
 import cv2
-image=cv2.imread('tree.png',1)
+image=cv2.imread('prema.jpg',1)
 image=cv2.resize(image,(400,300))
 cv2.imshow('rose',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-05-07 103333](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/7090459a-615f-491d-999d-86e669e891f0)
 
-
-
-
-
-![Screenshot 2024-02-21 185629](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/0ee6cb13-9912-43fb-a330-55ce22f32989)
 
 
 ### ii)Write the image
 ```
 import cv2
-image=cv2.imread('tree.png',0)
+image=cv2.imread('prema.jpg',0)
 cv2.imwrite('test.jpg',image)
 ```
 
-![Screenshot 2024-02-21 214919](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/9d329b84-a4ad-429a-9e6b-33533b8f80e6)
+![Screenshot 2024-05-07 104511](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/0d019cd4-eb0a-4412-8cb1-5a8f49095755)
+
 
 
 ### iii)Shape of the Image
 ```
 import cv2
-image=cv2.imread('tree.png')
+image=cv2.imread('prema.jpg')
 print(image.shape)
 ```
 
-![Screenshot 2024-02-21 214927](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/896a2517-2d6f-4f55-90fc-fe0055fd62fd)
+![Screenshot 2024-05-07 104515](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/55efa5b7-f836-4706-b6bf-bb3a9c942ab9)
+
+
 
 
 ### iv)Access rows and columns
 ```
 import random
 import cv2
-image=cv2.imread('tree.png',1)
+image=cv2.imread('prema.jpg',1)
 image=cv2.resize(image,(400,400))
 for i in range (150,200):
     for j in range(image.shape[1]):
@@ -99,14 +98,15 @@ cv2.imshow('part image',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-05-07 103529](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/aad97e7c-e3a4-46b9-8967-c274b0754a9d)
 
-![Screenshot 2024-02-21 185707](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/37ad4393-326c-413b-a714-c31fe4691ca1)
+
 
 
 ### v)Cut and paste portion of image
 ```
 import cv2
-image=cv2.imread('tree.png',1)
+image=cv2.imread('prema.jpg',1)
 image=cv2.resize(image,(400,400))
 tag =image[150:200,110:160]
 image[110:160,150:200] = tag
@@ -115,13 +115,15 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-![Screenshot 2024-02-21 185725](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/c067c100-35ff-45df-9a2c-47989b6a0548)
+![Screenshot 2024-05-07 103615](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/c67782f3-2e6d-4472-9aec-71eb9f62e717)
+
+
 
 
 ### vi) BGR and RGB to HSV and GRAY
 ```
 import cv2
-img = cv2.imread('tree.png',1)
+img = cv2.imread('prema.jpg',1)
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original Image',img)
 
@@ -140,13 +142,12 @@ cv2.imshow('RGB2GRAY',gray2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-
-![Screenshot 2024-02-21 185755](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/672b5c9e-76be-4af9-a45c-ece3ffe2e428)
+![Screenshot 2024-05-07 103655](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/f05efa5d-5567-4890-9f29-f0eff158ff74)
 
 
 ### vii) HSV to RGB and BGR
 ```
-img = cv2.imread('tree.png')
+img = cv2.imread('prema.jpg')
 img = cv2.resize(img,(300,200))
 
 img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
@@ -161,14 +162,14 @@ cv2.imshow('HSV2RGB',BGR)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-05-07 103754](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/7ebd6ea9-2bdc-49db-ac9a-86f99f577566)
 
-![Screenshot 2024-02-21 185820](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/ab92f371-f9d9-4d5a-a98b-3a7bde7f14a4)
 
 
 ### viii) RGB and BGR to YCrCb
 ```
 import cv2
-img = cv2.imread('tree.png')
+img = cv2.imread('prema.jpg')
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original RGB Image',img)
 
@@ -182,13 +183,14 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-![Screenshot 2024-02-21 185837](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/946dcf55-3986-4c38-b7b1-7feeccf3342a)
+![Screenshot 2024-05-07 103826](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/b617bcac-88f8-46c5-a678-848eb27ac96b)
+
 
 
 ### ix) Split and merge RGB Image
 ```
 import cv2
-img = cv2.imread('tree.png',1)
+img = cv2.imread('prema.jpg',1)
 img = cv2.resize(img,(300,200))
 
 R = img[:,:,2]
@@ -207,15 +209,14 @@ cv2.destroyAllWindows()
 ```
 
 
+![Screenshot 2024-05-07 103856](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/c0ba519a-5a49-43d8-9421-9675783ba0d4)
 
-
-![Screenshot 2024-02-21 185858](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/dad1d471-b3b8-452c-bc29-7fb03fcd5fde)
 
 
 ### x) Split and merge HSV Image
 ```
 import cv2
-img = cv2.imread("tree.png",1)
+img = cv2.imread("prema.jpg",1)
 img = cv2.resize(img,(200,200))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 
@@ -232,7 +233,8 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-![Screenshot 2024-02-21 185920](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/56dae9ee-70dc-46fd-ac9f-05aa6d16f635)
+![Screenshot 2024-05-07 103923](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/34680da0-7d91-43fc-8734-c606f849fab5)
+
 
 
 ## Result:
