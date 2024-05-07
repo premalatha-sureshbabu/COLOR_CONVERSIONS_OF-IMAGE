@@ -43,7 +43,6 @@ Split and merge HSV Image
 ### Developed By:S.Prema Latha
 ### Register Number: 212222230112
 
-
 ## Output:
 
 ### i) Read and display the image
