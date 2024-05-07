@@ -140,7 +140,8 @@ cv2.imshow('RGB2GRAY',gray2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-05-07 103655](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/f05efa5d-5567-4890-9f29-f0eff158ff74)
+![Screenshot 2024-05-07 103655](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/b81eaf46-9ef1-4752-94c8-0f6f575ca643)
+
 
 
 ### vii) HSV to RGB and BGR
@@ -160,7 +161,7 @@ cv2.imshow('HSV2RGB',BGR)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-05-07 103754](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/7ebd6ea9-2bdc-49db-ac9a-86f99f577566)
+![Screenshot 2024-05-07 103754](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/88520bdd-eca9-4f62-a392-3f6df58b15b0)
 
 
 
@@ -180,8 +181,8 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-05-07 103826](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/5b2b018c-c538-4c85-8104-f641d325dd0b)
 
-![Screenshot 2024-05-07 103826](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/b617bcac-88f8-46c5-a678-848eb27ac96b)
 
 
 
@@ -207,7 +208,8 @@ cv2.destroyAllWindows()
 ```
 
 
-![Screenshot 2024-05-07 103856](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/c0ba519a-5a49-43d8-9421-9675783ba0d4)
+![Screenshot 2024-05-07 103856](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/d1b29e00-a1cf-435f-9bb0-2473db1effbf)
+
 
 
 
@@ -231,7 +233,8 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-![Screenshot 2024-05-07 103923](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/34680da0-7d91-43fc-8734-c606f849fab5)
+![Screenshot 2024-05-07 103923](https://github.com/premalatha-sureshbabu/COLOR_CONVERSIONS_OF-IMAGE/assets/120620842/0cf43c3e-0aa5-45d4-96cd-4e018f3407fc)
+
 
 
 
